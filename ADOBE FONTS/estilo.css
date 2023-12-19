@@ -1,0 +1,182 @@
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.contenedor{ 
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    background-color: #6A2A23; 
+}
+
+.cajita{
+
+    width: 420px;
+    height: 320px;
+    margin: 10px;
+    padding: 18px;
+    align-items: center;
+    background-color: #639ceb;
+}
+
+.titulo1{
+    font-family: 'Kalnia', serif;
+    font-size: 430%;
+    color: #ffecdc;
+}
+
+.pangrama1{
+    
+    font-family: 'Kalnia', serif;
+    font-size: 150%;
+    color: #ffecdc;
+
+}
+
+.titulo2{
+
+    color: #ffecdc;
+    font-family: 'Hedvig Letters Serif', serif;
+    font-size: 300%;
+
+}
+
+.pangrama2{
+
+    color: #ffecdc;
+
+    font-family: 'Hedvig Letters Serif', serif;
+    font-size: 150%;
+}
+
+
+.titulo3{
+
+    font-family: 'Dosis', sans-serif;
+    font-size: 500%;
+    color: #ffecdc;
+
+}
+
+.pangrama3{
+
+    font-family: 'Dosis', sans-serif;
+    font-size: 150%;
+    color: #ffecdc;
+
+}
+
+
+.titulo4{
+
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 300%;
+    color: #ffecdc;
+
+
+}
+
+.pangrama4{
+
+font-family: 'IBM Plex Mono', monospace;
+    font-size: 150%;
+    color: #ffecdc;
+
+}
+
+.titulo5{
+
+    font-family: 'Zilla Slab', serif;
+        font-size: 400%;
+        color: #ffecdc;
+
+
+}
+
+.pangrama5{
+    font-family: 'Zilla Slab', serif;
+
+    font-size: 150%;
+    color: #ffecdc;
+
+}
+
+.titulo6{
+
+    font-family: 'Sora', sans-serif;
+        font-size: 400%;
+        color: #ffecdc;
+
+
+}
+
+.pangrama6{
+
+    font-family: 'Sora', sans-serif;
+
+    font-size: 150%;
+    color: #ffecdc;
+
+}
+
+.titulo7{
+
+    font-family: 'Crimson Pro', serif;
+        font-size: 500%;
+        color: #ffecdc;
+
+
+}
+
+.pangrama7{
+    
+    font-family: 'Crimson Pro', serif;
+
+    font-size: 150%;
+    color: #ffecdc;
+
+}
+
+.titulo8{
+
+    font-family: 'Space Mono', monospace;
+        font-size: 400%;
+        color: #ffecdc;
+
+
+}
+
+.pangrama8{
+    
+
+    font-family: 'Space Mono', monospace;
+    font-size: 150%;
+    color: #ffecdc;
+
+}
+
+.titulo9{
+
+    font-family: 'Titan One', sans-serif;
+        font-size: 400%;
+        color: #ffecdc;
+
+
+}
+
+.pangrama9{
+    
+
+    font-family: 'Titan One', sans-serif;
+    font-size: 150%;
+    color: #ffecdc;
+
+}
