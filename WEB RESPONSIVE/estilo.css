@@ -1,0 +1,139 @@
+
+*{ 
+    margin: 0;
+}
+
+
+.header{
+
+    background-color:rgb(10, 60, 255) ;
+     width: 200%;
+     display: flex;
+   
+     
+ }
+
+
+
+.titulo{
+
+ font-family: 'Crimson Pro', serif;
+  font-style: normal;
+  font-size: 700%;
+  color: rgb(229, 229, 252);
+  padding: 2%;
+
+
+}
+
+.estrellas{
+    color: antiquewhite;
+    margin-top: 3.5%;
+   font-size: 250%;
+
+}
+
+
+
+.contenedor{
+
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    margin-top: 3%;
+    margin: 2%;
+
+}
+
+.imagen1{
+
+    width: 26%;
+    padding: 3%;
+    filter:grayscale()
+}
+
+a:hover img {
+    filter: saturate(1);
+}
+
+.proyecto{
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;;
+    font-size: 600%;
+    margin-right: 4%;
+}
+
+.contenedor2{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+
+}
+
+
+.nombre{ 
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 120%;
+     color: blue;
+  
+}
+
+
+/*PORTATIL*/
+
+@media (max-width: 1280px) {
+
+.estrellas{
+   
+    font-size: 230%;
+
+}
+
+.nombre{
+    font-size: 150%;
+}
+
+
+}
+
+
+
+/*IPAD*/
+
+@media (max-width: 768px) {
+
+    .estrellas{
+   
+        font-size: 130%;
+        margin-top: 6%;
+    
+    }
+
+    .proyecto{
+        font-size: 400%;
+
+    }
+}
+
+/*IHPHONE*/
+
+@media (max-width: 600px) {
+
+    .titulo{
+        font-size: 300%;
+    }
+
+    .estrellas{
+   
+        font-size: 120%;
+        margin-top: 3.5%;
+    
+    }
+
+}
+
+
