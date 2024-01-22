@@ -1,0 +1,21 @@
+
+.body{
+
+    background-color: black;
+}
+
+.info{
+padding-left: 10%;
+}
+.titulo{
+
+    padding-left: 10%;
+    padding-top: 3%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    font-size: 300%;
+}
+.imagen{
+
+    width: 400px;
+}

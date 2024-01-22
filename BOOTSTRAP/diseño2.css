@@ -1,0 +1,76 @@
+
+*{ 
+    margin: 10;
+}
+
+
+
+.titulo{
+
+    padding: 5%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: 400%;
+
+}
+
+
+.container{
+
+    text-align: center;
+    
+
+}
+.row{
+
+    align-items: center;
+
+    border:rgb(0, 0, 0) 4px solid;;
+    
+}
+
+.borde{
+    
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 150%;
+    color: rgb(0, 0, 0);
+}
+
+.modelos{
+
+   width: 300px;
+   padding: 10%;
+   
+}
+
+.enlace{
+    text-decoration: none;
+    color: black;
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-size: 130%;
+}
+
+/*IPAD*/
+
+@media (max-width: 768px) {
+    .modelos{
+
+        width: 200px;
+
+
+    }
+
+}
+
+/*IPhone*/
+
+@media (max-width: 600px){
+
+    .modelos{
+
+        width: 100%;
+    }
+}
+
+
+
