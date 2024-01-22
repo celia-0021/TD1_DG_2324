@@ -1,0 +1,56 @@
+
+.body{
+    background-color: hotpink;
+}
+
+
+
+.foto{
+    margin-top: 15%;
+    width: 100%;
+}
+
+.texto{
+
+    margin-top: 10%;
+    font-family: 'IBM Plex Mono', monospace;
+    text-align:left;
+    color: gold;
+}
+
+.mb-3{
+   
+margin-left: 7%;
+    width: 90%;
+}
+
+/*IPAD*/
+
+@media (max-width: 768px) {
+    .texto{
+        font-size: 100%;
+    }
+}
+
+/*IPhone*/
+
+@media (max-width: 600px){
+
+    .texto{
+        font-size: 80%;
+        margin-left: 10%;
+    }
+
+
+.foto{
+
+    width: 140%;
+}
+
+.mb-3{
+   
+   margin-top: 10%;
+
+}
+
+}

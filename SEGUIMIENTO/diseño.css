@@ -1,0 +1,44 @@
+
+.bo{
+
+    background-image: url(FOTOS/Mesa\ de\ trabajo\ 1.png);
+    background-size: 100%;
+}
+
+.body{
+    background-color: rgb(219, 240, 135);
+}
+
+
+.contenedor{
+
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin-top: 4%;
+    margin-left: 5%;
+   background-image: url(FOTOS/flores3.png);
+   background-size: 100%;
+    justify-content: center;
+    height: 600px;
+
+}
+
+.titulo{
+  margin-top: 6%;
+    color: rgb(0, 0, 0);
+    font-size: 320%;
+
+
+}
+
+.paginas{
+
+    text-decoration: none;
+    font-size: 200%;
+    color: rgb(150, 54, 223);
+   
+    
+    
+}
+

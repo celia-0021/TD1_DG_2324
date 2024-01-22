@@ -1,0 +1,110 @@
+
+.body{
+    background-image: url(FOTOS/Mesa\ de\ trabajo\ 1.png);
+    background-size: 100%;
+
+}
+
+
+.titulo{
+
+    color: aliceblue;
+    margin-top: 6%;
+    text-align: center;
+    font-family: 'IBM Plex Mono', monospace;
+}
+.contenedor{
+
+    display: flex;
+    flex-direction: row;
+}
+
+
+.carousel{
+
+    width: 100%;
+    height: 100%;
+    margin: 6%;
+}
+
+.imagen1{
+
+    width: 102%;
+}
+
+
+.imagen2{
+
+    width: 82%;
+}
+
+
+.imagen3{
+
+    width: 103%;
+}
+
+.texto{
+
+    color: aliceblue;
+    text-align: center;
+    font-size: 200%;
+    font-family: 'IBM Plex Mono', monospace;
+
+}
+
+
+/*IPAD*/
+
+@media (max-width: 768px) {
+
+    .body{
+
+        background-size: 130%;
+    
+    }
+
+    .carousel{
+
+       margin-top: 15%;
+        
+    }
+    .texto{
+
+        font-size: 180%;
+        margin-top: 10%;
+    
+    }
+}
+
+/*IPhone*/
+
+@media (max-width: 600px){
+
+   
+    .body{
+
+        background-size: 200%;
+    
+    }
+
+
+.titulo{
+
+    margin-top: 10%;
+}
+
+    .carousel{
+
+       margin-top: 30%;
+        
+    }
+    .texto{
+
+        font-size: 150%;
+        margin: 5%;
+        margin-top: 10%;
+    
+    }
+
+}

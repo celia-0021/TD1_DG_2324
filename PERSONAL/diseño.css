@@ -1,9 +1,5 @@
 
-.bo{
 
-    background-image: url(FOTOS/Mesa\ de\ trabajo\ 1.png);
-    background-size: 100%;
-}
 
 .body{
     background-color: rgb(219, 240, 135);
@@ -28,6 +24,7 @@
   margin-top: 6%;
     color: rgb(0, 0, 0);
     font-size: 320%;
+    font-family: 'IBM Plex Mono', monospace;
 
 
 }
@@ -36,9 +33,55 @@
 
     text-decoration: none;
     font-size: 200%;
-    color: rgb(150, 54, 223);
+    color: rgb(255, 0, 0);
+    font-family: 'IBM Plex Mono', monospace;
    
     
     
 }
 
+
+/*IPAD*/
+
+@media (max-width: 768px) {
+
+    .contenedor{
+        background-size: 200%;
+        
+
+    }
+    .titulo{
+        font-size: 260%;
+    }
+
+
+    .paginas{
+        font-size: 120%;
+        
+        
+
+    }
+}
+
+/*IPhone*/
+
+@media (max-width: 600px){
+
+    .contenedor{
+        background-size: 200%;
+        
+
+    }
+
+    .titulo{
+        font-size: 220%;
+    }
+
+    .paginas{
+        font-size: 130%;
+        
+        
+
+    }
+
+}
